@@ -31,7 +31,6 @@ const HeroSection = () => {
           <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-orange-600 rounded shadow hover:bg-orange-700"
-            activeClass="active"
             spy={true}
             smooth={true}
             offset={-100}
@@ -41,22 +40,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
-        {/* <Link
-          to="about"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}>
-          <HiArrowDown size={35} className="animate-bounce" />
-        </Link> */}
-        <Link
-          to="about"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={800}>
+        <Link to="about" spy={true} smooth={true} offset={-100} duration={800}>
           <HiArrowCircleDown
             size={50}
             className="animate-bounce text-orange-600"
