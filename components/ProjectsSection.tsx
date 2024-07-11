@@ -101,7 +101,7 @@ const ProjectsSection = () => {
           return (
             <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
-                <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
+                <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row-reverse md:space-x-reverse md:space-x-12">
                   <div className="md:w-1/2">
                     <h1 className="text-4xl font-bold mb-4">{project.name}</h1>
                     {/* <time className="inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-6 sm:mb-6 text-orange-600 bg-orange-100 rounded-full">
